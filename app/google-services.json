@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "677750947428",
+    "project_id": "hellgi-f68c0",
+    "storage_bucket": "hellgi-f68c0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:677750947428:android:152b3d042c56efd498a971",
+        "android_client_info": {
+          "package_name": "com.example.projecthellgi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "677750947428-ltmm6rcepk2d59dkt8kh1seibphtku4m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4FffI_HFQb7sUYRd5fVOsU0HAqG5IWCI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "677750947428-ltmm6rcepk2d59dkt8kh1seibphtku4m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

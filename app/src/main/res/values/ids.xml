@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="HellgiProject" type="id"/>
+    <item name="UserEmailAddress" type="id"/>
+    <item name="UserID" type="id"/>
+    <item name="UserPW" type="id"/>
+    <item name="UserName" type="id"/>
+    <item name="UserPassword" type="id"/>
+    <item name="PersonName" type="id"/>
+    <item name="registerCompliteButton" type="id"/>
+    <item name="validateButton" type="id"/>
+</resources>

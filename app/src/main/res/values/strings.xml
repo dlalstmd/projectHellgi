@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">projectHellgi</string>
+    <string name="registerButton">회원가입</string>
+    <string name="logInButton">로그인</string>
+    <string name="회원가입텍스트">회원가입</string>
+    <string name="UserID">userID</string>
+    <string name="UserPW">userPW</string>
+    <string name="Name">userName</string>
+    <string name="아이디">userID</string>
+    <string name="비밀번호">userPW</string>
+    <string name="이름힌트">userName</string>
+    <string name="등록">회원가입</string>
+    <string name="중복확인">중복확인</string>
+    <string name="id">userID</string>
+    <string name="pw">userPW</string>
+    <string name="password_check">Password Check</string>
+</resources>
