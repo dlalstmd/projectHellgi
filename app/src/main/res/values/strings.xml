@@ -14,4 +14,12 @@
     <string name="id">userID</string>
     <string name="pw">userPW</string>
     <string name="password_check">Password Check</string>
+    <string name="관심운동선택">관심운동선택</string>
+    <string name="맨몸운동">맨몸운동</string>
+    <string name="중량운동">중량운동</string>
+    <string name="스포츠">스포츠</string>
+    <string name="기타">기타</string>
+    <string name="확인">확인</string>
+    <string name="이름">이름</string>
+    <string name="한줄소개">한줄소개</string>
 </resources>

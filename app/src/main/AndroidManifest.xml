@@ -12,7 +12,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ProjectHellgi"
-        tools:targetApi="31">
+        tools:targetApi="31"
+        >
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -27,6 +28,8 @@
         <activity android:name=".RegisterPage"
             tools:ignore="DuplicateActivity" />
         <activity android:name=".HomeActivity"/>
+        <activity android:name=".SelectWork_page"/>
+        <activity android:name=".MainProfile_page"/>
     </application>
 
 </manifest>
