@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/message"
+        android:title="@string/메세지"
+        android:icon="@drawable/baseline_send_16"/>
+
+</menu>

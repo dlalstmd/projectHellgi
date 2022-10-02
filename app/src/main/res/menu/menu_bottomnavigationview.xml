@@ -3,16 +3,21 @@
 
     <item
         android:id="@+id/info"
-        android:icon="@drawable/ic_info"
-        android:title="정보" />
+        android:icon="@drawable/baseline_fitness_center_24"
+        android:title="@string/운동변경" />
 
     <item
         android:id="@+id/home"
         android:icon="@drawable/ic_home"
-        android:title="홈" />
+        android:title="@string/홈" />
 
     <item
         android:id="@+id/profile"
-        android:icon="@drawable/ic_settings"
-        android:title="프로필" />
+        android:icon="@drawable/baseline_person_18"
+        android:title="@string/프로필" />
+
+    <item
+        android:id="@+id/message"
+        android:icon="@drawable/baseline_send_16"
+        android:title="@string/메세지"/>
 </menu>
