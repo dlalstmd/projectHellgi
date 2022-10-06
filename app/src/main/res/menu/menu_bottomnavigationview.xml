@@ -10,6 +10,10 @@
         android:id="@+id/home"
         android:icon="@drawable/ic_home"
         android:title="@string/홈" />
+    <item
+        android:id="@+id/addPhoto"
+        android:title="@string/사진"
+        android:icon="@drawable/baseline_photo_camera_24"/>
 
     <item
         android:id="@+id/profile"

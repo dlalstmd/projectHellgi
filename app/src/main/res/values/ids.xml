@@ -2,7 +2,7 @@
 <resources>
     <item name="HellgiProject" type="id"/>
     <item name="UserEmailAddress" type="id"/>
-    <item name="UserID" type="id"/>
+    <item name="UserEmail" type="id"/>
     <item name="UserPW" type="id"/>
     <item name="UserName" type="id"/>
     <item name="UserPassword" type="id"/>

@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RegisterPage">
+    tools:context=".Register_Page">
 
     <TextView
         android:id="@+id/HellgiProject"
@@ -20,10 +20,10 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/UserID"
+        android:id="@+id/UserEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/UserID"
+        android:text="userEmail"
         app:layout_constraintBaseline_toBaselineOf="@+id/UserEmailAddress"
         app:layout_constraintEnd_toStartOf="@+id/UserEmailAddress"
         app:layout_constraintStart_toStartOf="parent"
@@ -33,13 +33,13 @@
         android:id="@+id/UserPW"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/UserPW"
+        android:text="userPassword"
         app:layout_constraintBottom_toTopOf="@+id/UserName"
-        app:layout_constraintEnd_toEndOf="@+id/UserID"
-        app:layout_constraintHorizontal_bias="0.6"
-        app:layout_constraintStart_toStartOf="@+id/UserID"
-        app:layout_constraintTop_toBottomOf="@+id/UserID"
-        app:layout_constraintVertical_bias="0.293"
+        app:layout_constraintEnd_toEndOf="@+id/UserEmail"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="@+id/UserEmail"
+        app:layout_constraintTop_toBottomOf="@+id/UserEmail"
+        app:layout_constraintVertical_bias="0.482"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -48,12 +48,10 @@
         android:layout_height="wrap_content"
         android:text="@string/Name"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/textView"
-        app:layout_constraintHorizontal_bias="0.457"
-        app:layout_constraintStart_toStartOf="@+id/textView"
-        app:layout_constraintTop_toBottomOf="@+id/UserID"
-        app:layout_constraintVertical_bias="0.566"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintTop_toBottomOf="@+id/UserEmail"
+        app:layout_constraintVertical_bias="0.37"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="19dp" />
 
     <EditText
         android:id="@+id/UserEmailAddress"
@@ -62,7 +60,7 @@
         android:layout_marginTop="152dp"
         android:autofillHints=""
         android:ems="10"
-        android:hint="@string/아이디"
+        android:hint="userEmail"
         android:inputType="textEmailAddress"
         android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -77,15 +75,15 @@
         android:layout_height="wrap_content"
         android:autofillHints=""
         android:ems="10"
-        android:hint="@string/비밀번호"
+        android:hint="userPassword"
         android:inputType="textPassword"
         android:minHeight="48dp"
         app:layout_constraintBottom_toTopOf="@+id/PersonName"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/UserEmailAddress"
-        app:layout_constraintVertical_bias="0.239"
+        app:layout_constraintVertical_bias="0.491"
         tools:ignore="LabelFor,MissingConstraints" />
 
     <EditText
@@ -103,7 +101,7 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/UserEmailAddress"
-        app:layout_constraintVertical_bias="0.556"
+        app:layout_constraintVertical_bias="0.339"
         tools:ignore="LabelFor,MissingConstraints" />
 
     <Button
@@ -116,32 +114,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/PersonName"
         tools:ignore="MissingConstraints,UsingOnClickInXml" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="PWC"
-        app:layout_constraintBottom_toTopOf="@+id/UserName"
-        app:layout_constraintEnd_toEndOf="@+id/UserPW"
-        app:layout_constraintHorizontal_bias="0.263"
-        app:layout_constraintStart_toStartOf="@+id/UserPW"
-        app:layout_constraintTop_toBottomOf="@+id/UserPW"
-        app:layout_constraintVertical_bias="0.488" />
-
-    <EditText
-        android:id="@+id/passwordcheckEdt"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="@string/password_check"
-        android:inputType="textPassword"
-        android:minHeight="48dp"
-        app:layout_constraintBottom_toTopOf="@+id/PersonName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.255"
-        app:layout_constraintStart_toEndOf="@+id/textView"
-        app:layout_constraintTop_toBottomOf="@+id/UserPassword"
-        app:layout_constraintVertical_bias="0.441" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -52,7 +52,7 @@ public class Login_page extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //intent함수를 통해 register액티비티 함수를 호출한다.
-                startActivity(new Intent(Login_page.this,RegisterPage.class));
+                startActivity(new Intent(Login_page.this, Register_Page.class));
             }
         });
 
@@ -69,7 +69,7 @@ public class Login_page extends AppCompatActivity {
                                 if(task.isSuccessful()){
                                     Log.d(TAG, "signInWithEmail:success");
 
-                                    Intent intent = new Intent(Login_page.this, HomeActivity.class);
+                                    Intent intent = new Intent(Login_page.this, HomeActivity_page.class);
                                     startActivity(intent);
                                 }else{
                                     Log.w(TAG, "signInWithEmail:failure", task.getException());
